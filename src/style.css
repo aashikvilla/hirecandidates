@@ -1,0 +1,119 @@
+body{
+    background-image: linear-gradient(135deg,rgb(215, 222, 248) 0%,rgb(33,138,174)69%,rgb(32,167,172) 80%) !important;
+    color:white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  
+}
+
+.nav-item{
+    text-decoration: none;
+    padding:1.5rem 1.5rem 0.5rem 1.5rem ;  
+    color:white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.active{
+    background: rgba(0, 0, 0, 0);
+    color:white;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0);  
+    border-bottom: 5px white solid;
+}
+
+.card {
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 0.1rem;
+    background: rgba(255, 255, 255, 0.2);
+   
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card img{
+      width:100%;
+      height:80%;
+  }
+  .card button {
+     padding:1rem 2rem 1rem 2rem;
+     margin :1rem;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+
+  .main-section{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .home-container{
+    display: grid;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    margin-top: 3rem;
+  }
+
+  .button-section{
+    display:flex;
+    justify-content: space-around;
+   
+    position: relative;
+  }
+  
+
+
+  input[type='text'] { 
+      font-size: 20px;
+      padding:1.2rem;
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 0.5rem;
+      border :none;
+    
+    }
+    .card-container h1{
+        text-decoration: none;
+    }
+
+    .details{
+        display: flex;
+        box-shadow: 0 4px 18px 0 rgba(0,0,0,0.6);
+        transition: 0.3s;
+        width: 100%;
+        border-radius: 0.1rem;
+        background: rgba(255, 255, 255, 0.3);       
+    }
+    .details-container{
+        width: 100%;
+    }
+    button{
+        padding : 2rem 4rem 2rem 4rem ;
+        cursor: pointer;
+        box-shadow: 0 6px 12px 0 rgba(0,0,0,0.5);
+        transition: 0.3s;
+        border-radius: 0.4rem;
+    }
+
+    .accept{
+        background: rgb(118, 247, 118);
+    }
+    .reject{
+        background: rgb(240, 91, 91);
+    }
+
+    footer{
+ box-shadow: 0 4px 18px 0 rgba(0,0,0,0);
+ background: rgba(0, 0, 0, 0.3);
+    }
